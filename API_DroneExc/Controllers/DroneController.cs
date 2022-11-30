@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using API_DroneExc.Models;
+using System.Threading.Tasks;
 
 namespace API_DroneExc.Controllers
 {
@@ -24,7 +25,7 @@ namespace API_DroneExc.Controllers
             cDrone drn;
             drones.TryGetValue(sn_Dr, out drn);
             return drn;
-        }
+        }  
 
         
         // POST: Drone/Create
@@ -105,16 +106,20 @@ namespace API_DroneExc.Controllers
             return dr_avalbl;
         }
 
+        //GET: Drone/Battery_Level 
         public float Batt_Level([FromBody] cDrone pDrone)
         {
             cDrone dr;
             drones.TryGetValue(pDrone.serial_number, out dr);
 
             return dr.Batt_cap;
+            
         }
 
 
-        // POST: Drone/Delete/5
+        // GET: Drone/Schedule_log
+
+
 
     }
 }
