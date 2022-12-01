@@ -46,6 +46,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accessibility" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Win32.TaskScheduler, Version=2.9.1.0, Culture=neutral, PublicKeyToken=e25603a88b3aa7da, processorArchitecture=MSIL">
       <HintPath>..\packages\TaskScheduler.2.9.1\lib\net452\Microsoft.Win32.TaskScheduler.dll</HintPath>
@@ -54,6 +55,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.7.0.0\lib\netstandard2.0\System.Text.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -230,6 +234,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="jDrone.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
