@@ -1,0 +1,85 @@
+﻿{
+  "Drone": [
+    {
+      "serial_number": "45fgr",
+      "model": "Lightweight",
+      "weight": 50,
+      "battery_capacity": 66,
+      "state": "LOADING",
+      "medications": [ "Medication" ]
+
+    },
+    {
+      "serial_number": "55f3r",
+      "model": "Heavyweight",
+      "weight": 300,
+      "battery capacity": 80,
+      "state": "IDLE",
+      "medications": [ "Medication" ]
+    },
+    {
+      "serial number": "68hkf",
+      "model": "Lightweight",
+      "weight": 50,
+      "battery capacity": 56,
+      "state": "LOADED",
+      "medications": [ "Medication" ]
+    },
+    {
+      "serial number": "88rrt",
+      "model": "Middleweight",
+      "weight": 100,
+      "battery capacity": 100,
+      "state": "LOADING",
+      "medications": [ "Medication" ]
+    },
+    {
+      "serial number": "8su26",
+      "model": "Cruiserweight",
+      "weight": 150,
+      "battery capacity": 89,
+      "state": "DELIVERED",
+      "medications": [ "Medication" ]
+    }
+
+  ],
+
+  "Medication" [
+    {
+      "name": "Tylenol",
+      "weight": 25,
+      "code": "45Tyjj",
+      "image":
+    },
+    {
+      "name": "Dypir",
+      "weight": 12,
+      "code": "12Dp6hh",
+      "image":
+    },
+    {
+      "name": "Parctmol",
+      "weight": 35,
+      "code": "500Ptrrr",
+      "image":
+    },
+    {
+      "name": "Dogoxin",
+      "weight": 50,
+      "code": "125Dg4g",
+      "image":
+    },
+    {
+      "name": "Cefalex",
+      "weight": 15,
+      "code": "1Cfnn3",
+      "image":
+    },
+    {
+      "name": "Metamix",
+      "weight": 10,
+      "code": "10MtPRv",
+      "image":
+    }
+  ]
+}
